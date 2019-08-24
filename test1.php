@@ -1,4 +1,5 @@
 <?php
+// https://github.com/BaseMax/PartitionArrayPHP
 function partition($transport,$sizes) {
 	$results = [];
 	foreach ($sizes as $size) {
@@ -17,4 +18,3 @@ $input=[1,2,3,4,5,6,7];
 $size=[3,2,2];
 $output=partition($input, $size);
 print_r($output);
-sleep(500);
